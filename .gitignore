@@ -1,1 +1,1 @@
-Nothing should be ignored since the changes only include source files (.html, .css) and documentation (.md).
+(download.html and features.html are source files, no build artifacts, dependencies, or temp files in the changes)
