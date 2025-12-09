@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>下载安装 - MetroWordle Helper</title>
   <meta name="description" content="下载安装MetroWordle Helper插件，提升您的MetroWordle游戏体验">
+  <meta name="keywords" content="MetroWordle, 辅助插件, 猜词工具, 信息熵, 概率模型, 对战模式">
+  <meta name="author" content="bilibili@lvshu">
+  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/3c5e781be5.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -41,43 +46,130 @@
     </div>
   </nav>
 
-  <main class="download-main">
-    <div class="container">
-      <h1 class="section-title">📥 安装 MetroWordle Helper</h1>
-      
-      <section class="install-guide">
-        <h2>如何安装？</h2>
-        <ol>
-          <li>安装 <a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey</a> 浏览器扩展（支持 Chrome / Edge / Firefox）</li>
-          <li>点击下方按钮安装脚本</li>
-          <li>打开 <a href="https://metrowordle.fun" target="_blank">MetroWordle.fun</a> 即可使用</li>
-        </ol>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>立即安装</h1>
+      <p class="subtitle">获取 MetroWordle Helper 插件，提升您的游戏体验</p>
+      <div class="cta-buttons">
         <a href="MetroWordle Helper 7 (ERC - Exp)-7.45.user.js" class="btn primary download-btn">
           <i class="fas fa-download"></i> 安装最新版 v7.45
         </a>
-      </section>
-
-      <section class="faq">
-        <h2>❓ 常见问题</h2>
-        <details class="faq-item">
-          <summary>Q: 插件会收集我的数据吗？</summary>
-          <p>A: 不会！所有数据仅保存在你的浏览器 localStorage 中，绝不上传服务器，完全离线运行。</p>
-        </details>
-        <details class="faq-item">
-          <summary>Q: 为什么推荐词和我猜的不一样？</summary>
-          <p>A: 插件默认使用最优策略（基于信息熵），若你输入了非推荐词，插件会弹出"手动输入"面板，请按实际反馈填写。</p>
-        </details>
-        <details class="faq-item">
-          <summary>Q: 如何同步多台设备的数据？</summary>
-          <p>A: 在插件界面点击"导出数据"按钮，保存 JSON 文件；在另一台设备上点击"导入数据"即可。</p>
-        </details>
-      </section>
-
-      <section class="source">
-        <p>开源地址：<a href="https://github.com/yourname/metrowordle-helper" target="_blank">GitHub</a> | 作者：<a href="https://space.bilibili.com/1944366810">bilibili@lvshu</a></p>
-      </section>
+        <a href="index.html" class="btn outline">了解更多</a>
+      </div>
     </div>
-  </main>
+  </header>
+
+  <!-- Installation Section -->
+  <section class="installation">
+    <div class="container">
+      <h2 class="section-title">快速开始</h2>
+      <p class="section-subtitle">三步完成安装，即刻享受智能辅助</p>
+      
+      <div class="installation-steps">
+        <div class="install-step">
+          <div class="step-icon">
+            <i class="fas fa-puzzle-piece"></i>
+          </div>
+          <h3>安装油猴插件</h3>
+          <p>下载并安装 Tampermonkey 浏览器扩展</p>
+        </div>
+        
+        <div class="install-step">
+          <div class="step-icon">
+            <i class="fas fa-download"></i>
+          </div>
+          <h3>安装脚本</h3>
+          <p>点击安装按钮获取 MetroWordle Helper</p>
+        </div>
+        
+        <div class="install-step">
+          <div class="step-icon">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <h3>开始游戏</h3>
+          <p>访问 MetroWordle.fun 享受智能辅助</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Highlights -->
+  <section class="features-section">
+    <div class="container">
+      <h2 class="section-title">核心功能</h2>
+      <p class="section-subtitle">为 MetroWordle 游戏提供全方位的智能辅助</p>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>智能推荐算法</h3>
+          <p>基于信息熵与最小期望剩余候选数（ERC）模型，每轮推荐最优猜测词，科学提升成功率</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>对战模式优化</h3>
+          <p>支持双人对战模式，利用对手反馈优化概率模型，显著提升对战胜率（+40%+）</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-sync"></i>
+          </div>
+          <h3>跨设备同步</h3>
+          <p>一键导出/导入 localStorage，游戏进度与统计数据永不丢失</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-history"></i>
+          </div>
+          <h3>历史学习</h3>
+          <p>自动记录每道题的答案历史，在后续游戏中提升相关词汇概率，越用越聪明</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <h2 class="section-title">常见问题</h2>
+      <p class="section-subtitle">解答您的疑问</p>
+      
+      <div class="faq-container">
+        <details class="faq-item">
+          <summary>插件是否安全？会收集我的数据吗？</summary>
+          <p>完全安全！所有数据仅保存在您的浏览器 localStorage 中，绝不上传服务器，完全离线运行，保护您的隐私安全。</p>
+        </details>
+        
+        <details class="faq-item">
+          <summary>为什么推荐词和我猜的不一样？</summary>
+          <p>插件默认使用最优策略（基于信息熵）。如果您输入了非推荐词，插件会弹出"手动输入"面板，请按实际反馈填写以保持准确性。</p>
+        </details>
+        
+        <details class="faq-item">
+          <summary>如何同步多台设备的数据？</summary>
+          <p>在插件界面点击"导出数据"按钮，保存 JSON 文件；在另一台设备上点击"导入数据"即可实现跨设备同步。</p>
+        </details>
+        
+        <details class="faq-item">
+          <summary>支持哪些浏览器？</summary>
+          <p>支持所有支持 Tampermonkey 扩展的浏览器，包括 Chrome、Edge、Firefox 等主流浏览器。</p>
+        </details>
+        
+        <details class="faq-item">
+          <summary>插件如何更新？</summary>
+          <p>油猴脚本支持自动更新，当有新版本时会提示更新。您也可以随时从官网重新安装最新版本。</p>
+        </details>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <div class="footer-content">
@@ -102,7 +194,7 @@
     </div>
     
     <div class="footer-bottom">
-      <p>© 2025 MetroWordle Helper | 专为 MetroWordle.fun 设计</p>
+      <p>© 2025 MetroWordle Helper. 保留所有权利 | 专为 MetroWordle.fun 设计</p>
     </div>
   </footer>
 
